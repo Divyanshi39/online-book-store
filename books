@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>User Profile - Online Book Store</title>
+            <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+            <h1 class="amazon">Amazon Books</h1>
+            <img src="subtle.webp">
+            <p><strong> subtle art of not giving fuck </strong></p>
+            <p>250 rs</p>
+            <img src="think.jpg">
+            <p><strong>thinks</strong></p>
+            <p>300 rs</p>
+            <img src="harry.jpg">
+            <p><strong>harry potter</strong></p>
+            <p>500 rs </p>
+      </body>
+      </html>

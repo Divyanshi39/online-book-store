@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>User Profile - Online Book Store</title>
+        <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+        <h1 class="amazon">Amazon Books</h1>
+        <div class="cart">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address"><br>
+            
+            <label for="payment">Payment Details:</label>
+            <input type="text" id="payment" name="payment"><br>
+        </form>
+        
+        <h2>Cart</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Book rows will be dynamically generated here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Subtotal:</td>
+                    <td id="subtotal"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Shipping:</td>
+                    <td id="shipping"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Total:</td>
+                    <td id="total"></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <button id="checkout">Checkout</button>
+    </div>
+    </body>
+    </html>
